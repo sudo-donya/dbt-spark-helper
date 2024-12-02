@@ -1,6 +1,6 @@
 # Databricks dbt helper
 
-This repository holds helper Databricks Notebooks to deploy dbt projects on a Databricks job cluster.
+This repository holds helper Databricks notebooks to deploy dbt projects on a Databricks job cluster.
 
 &nbsp;
 
@@ -39,4 +39,4 @@ And here is where I figured out that one can “ingest” dbt commands: the ```d
 
 * No way to take advantage of ```dbt-databricks```-specific features such as Unity Catalog support, liquid clustering etc.
 
-* No way to execute models in an environment that contains different catalogs.
+* No way to execute models in an environment that contains different catalogs (i.e. databases)

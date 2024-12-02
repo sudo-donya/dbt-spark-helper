@@ -45,3 +45,5 @@
 # MAGIC       schema: dbt_elementary
 # MAGIC       host: NA
 # MAGIC       threads: 14" > /root/.dbt/profiles.yml
+# MAGIC %md
+# MAGIC `dbt-spark` does not differentiate between `database` and `schema`, so only schema is used to define the namespace for tables. can be customized as you see fit.
