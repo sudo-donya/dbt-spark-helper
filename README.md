@@ -6,7 +6,7 @@ This repository holds helper Databricks notebooks to deploy dbt projects on a Da
 
 ## But, why?
 
-All-purpose clusters are quite expensive in comparison to job clusters.
+All-purpose clusters are quite expensive in comparison to job clusters (and all-purpose clusters have the “Terminate after x minutes of inactivity” setting which cannot be set to zero forcing one to keep the cluster online even when one isn't using it)
 
 ## Running dbt on a job cluster
 
