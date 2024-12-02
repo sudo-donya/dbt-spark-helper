@@ -6,7 +6,7 @@ This repository holds helper Databricks Notebooks to deploy dbt projects on a Da
 
 ## But, why?
 
-The all-purpose clusters are quite expensive in comparison to job clusters.
+All-purpose clusters are quite expensive in comparison to job clusters.
 
 ## Running dbt on a job cluster
 
@@ -20,7 +20,7 @@ The all-purpose clusters are quite expensive in comparison to job clusters.
 
 3. Create a new workflow. As its first "step", add a notebook task which executes ```lib/dbt-job-cluster``` from the repo you cloned.
 
-4. Create a new python notebook and add it as second task dependent on the lib/dbt-job-cluster task.
+4. Create a new python notebook and add it as second task dependent on the ```lib/dbt-job-cluster``` task.
 Add the python code contained in ```run-dbt.py``` as the first task of this new notebook.
 
 Now you can call all your favourite dbt commands inside the notebook as additional tasks like so:
