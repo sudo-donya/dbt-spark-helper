@@ -11,7 +11,7 @@
 # MAGIC - `DBT_REPOSITORY_REF` - the git reference to be cloned. If not set, `prod` is taken as the production branch name.
 # MAGIC - `DBT_GITHUB_SSH_PRIVATE_KEY` - the raw code of a SSH key. If set, the SSH key will be placed at `~/.ssh/github_id` and the ssh config will be created for the host github.com.
 # MAGIC - `DBT_CORE_VERSION` - the package version of `dbt-core` to be installed when not already installed (e.g. via dependencies in a workflow task). If not set, 1.8.9 is taken.
-# MAGIC - `DBT_SPARK_VERSION` - the package version of `dbt-databricks` to be installed when not already installed (e.g. via dependencies in a workflow task). If not set, 1.8.0 is taken.
+# MAGIC - `DBT_SPARK_VERSION` - the package version of `dbt-spark` to be installed when not already installed (e.g. via dependencies in a workflow task). If not set, 1.8.0 is taken.
 
 # COMMAND ----------
 
